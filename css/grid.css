@@ -5,10 +5,16 @@
         grid-template-columns: 60% 1fr 1fr 60%;
         grid-template-rows: 1fr 1fr;
     }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
     .item1 {
         grid-column-start: 1;
         grid-column-end: 5 ;
-        grid-row-start: 1;
+        grid-row-start: 2;
         grid-row-end: 3;
         background-image: url('../images/history.jpg');
         background-size: cover;
@@ -25,9 +31,9 @@
     }
     .item2 {
         grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
         background-image: url('../images/history1.jpg');
         background-size: cover;
     }
@@ -45,6 +51,25 @@
         background-color: white;
         color: black;
     }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/history3.jpg');
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    .item3 div {
+        height: 100%;
+    }
+    .item3 #arrow3 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
+    }
     div.abortion {
         top: 100px;
         height: 100px;
@@ -57,12 +82,18 @@
         grid-template-columns: 60% 1fr 1fr 1fr;
         grid-template-rows: 1fr 100vh 100vh 100vh;
     }
-    .item1 {
+    .nav {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 1;
         grid-row-end: 2;
-        background-image: url('../images/history.jpg');
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('../images/history4.png');
         background-position: -400px;
     }
     .item1 div {
@@ -77,8 +108,8 @@
     .item2 {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 2;
-        grid-row-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
         background-image: url('../images/history1.jpg');
         background-position: 100px;
     }
@@ -95,6 +126,25 @@
         top: 500px;
         background-color: white;
         color: black;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/history3.jpg');
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    .item3 div {
+        height: 100%;
+    }
+    .item3 #arrow3 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
     }
     div.abortion {
         height: 100%;
@@ -118,7 +168,7 @@
         grid-column-end: 5;
         grid-row-start: 2;
         grid-row-end: 3;
-        background-image: url('../images/history.jpg');
+        background-image: url('../images/history4.png');
         background-repeat: repeat-x;
         background-attachment: fixed;
         background-size: cover;
