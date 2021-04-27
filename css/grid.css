@@ -105,7 +105,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 60% 1fr 1fr 1fr;
-        grid-template-rows: 1fr 100vh 100vh;
+        grid-template-rows: 1fr 100vh 100vh 100vh;
     }
     .nav {
         grid-column-start: 1;
@@ -150,11 +150,24 @@
         top: 600px; 
         left: 700px;
     }
-    .item2 button {
-        left: 39%;
-        top: 500px;
-        background-color: white;
-        color: black;
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/history3.jpg');
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    .item3 div {
+        height: 100%;
+    }
+    .item3 #arrow3 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
     }
     div.abortion {
         height: 100%;
